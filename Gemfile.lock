@@ -40,7 +40,7 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (8.0.0)
-    autoprefixer-rails (7.1.4)
+    autoprefixer-rails (7.2.5)
       execjs
     bcrypt (3.1.11)
     bindex (0.5.0)
@@ -61,7 +61,7 @@ GEM
     crass (1.0.3)
     erubi (1.7.0)
     execjs (2.7.0)
-    ffi (1.9.18)
+    ffi (1.9.21)
     formatador (0.2.5)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
