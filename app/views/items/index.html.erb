@@ -40,12 +40,15 @@
         </div>
         <% end %>
         <!-- end Modal -->
+
+
       <td><%= link_to "Edit Item", edit_item_path(item), class: 'btn btn-info btn-xs' %></td>
       <td>
         <%= link_to item, method: :delete, data: {confirm: "Are you sure?" }, class: 'btn btn-danger btn-xs' do %>
           <i class="glyphicon glyphicon-trash"></i> Delete Item
-        <% end %>
+
       </td>
+    <% end %>
     </tr>
     <% end %>
   </tbody>
@@ -57,3 +60,4 @@
 <%= link_to new_item_path, class: 'btn btn-success' do %>
   <i class="glyphicon glyphicon-plus"></i> Add Item
 <% end %>
+
