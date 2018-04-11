@@ -1,7 +1,7 @@
 class ItemsController < ApplicationController
 
   def index
-    @items = Item.all
+    @items = Item.order(:name)
   end
 
   def new
@@ -20,9 +20,11 @@ class ItemsController < ApplicationController
   end
 
   def edit
+    @item = Item.find(params[:id])
   end
 
   def update
+    @item = Item.find(params[:id])
     if @item.update_attributes(item_params)
       flash[:success] = "Item was updated."
       redirect_to items_path
@@ -32,6 +34,7 @@ class ItemsController < ApplicationController
   end
 
   def destroy
+    @item = Item.find(params[:id])
     @item.destroy
     flash[:success] = "Item was successfully destroyed."
     redirect_to items_path

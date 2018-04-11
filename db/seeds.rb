@@ -20,3 +20,4 @@ User.create!(name:  "Example User",
                password:              password,
                password_confirmation: password)
 end
+
