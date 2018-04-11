@@ -38,6 +38,8 @@ gem 'jbuilder', '2.7.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'carrierwave', '~> 0.10.0'
+gem 'mini_magick', '~> 4.3'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
