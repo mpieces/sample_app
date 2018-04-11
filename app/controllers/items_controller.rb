@@ -24,7 +24,7 @@ class ItemsController < ApplicationController
 
   def update
     if @item.update_attributes(item_params)
-      flash[:success] = "Task was updated."
+      flash[:success] = "Item was updated."
       redirect_to items_path
     else
       flash[:danger] = "There was a problem updating the item."
