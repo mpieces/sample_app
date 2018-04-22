@@ -21,8 +21,9 @@ ActiveRecord::Schema.define(version: 20180407170104) do
   end
 
   create_table "responses", force: :cascade do |t|
-    t.integer "question_id"
-    t.text "content"
+    t.integer "item_id"
+    t.integer "user_id"
+    t.string "response_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

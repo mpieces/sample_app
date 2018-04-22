@@ -10,7 +10,10 @@ Rails.application.routes.draw do
   post '/login', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
 
+  resources :responses, only: [] do
+    post :create_or_update, on: :collection
+  end
+
   resources :users
   resources :items
-  resources :responses
 end
