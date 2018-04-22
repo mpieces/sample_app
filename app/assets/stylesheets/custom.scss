@@ -141,8 +141,8 @@ nav ul li .btn {
 }
 
 nav ul li a:hover, a.active {
-  color: #56a1d5;
-  border-bottom: 3px solid #56a1d5;
+  color: #ed6354;
+  border-bottom: 3px solid #ed6354;
   text-decoration: none;
 }
 
@@ -237,7 +237,7 @@ nav ul li a:hover, a.active {
 }
 
 .services-overlay {
-  margin-top: 445px;
+  margin-top: 250px;
   height: 610px;
   padding-top: 100px;
   color: white;
@@ -273,7 +273,7 @@ nav ul li a:hover, a.active {
 
 .services-links-wrapper a:hover {
   text-decoration: none;
-  color: #56a1d5;
+  color: #ed6354;
 }
 
 .service-title {
@@ -400,4 +400,10 @@ input {
 .container {
   margin-top: 100px;
   background-color: white;
+  padding: 30px;
+}
+
+.btn-primary {
+  background-color: #ed6354;
+  border-color: #ed6354;
 }

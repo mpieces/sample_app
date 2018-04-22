@@ -89,24 +89,25 @@
 </table>
 
 <hr>
-</div>
-
-
 <!-- New Item Button -->
 <br>
 <%= link_to new_item_path, class: 'btn btn-success' do %>
   <i class="glyphicon glyphicon-plus"></i> Add Item
 
 <% end %>
+</div>
+
+
+
 
 <script>
-$(".form class name").submit(function(e) {
+$(".answer-form").submit(function(e) {
 
 
     $.ajax({
            type: "POST",
            url: "/responses/create_or_update",
-           data: $(".form class name").serialize(), // serializes the form's elements.
+           data: $(".answer-form").serialize(), // serializes the form's elements.
            success: function(data)
            {
                alert(data); // show response from the php script.

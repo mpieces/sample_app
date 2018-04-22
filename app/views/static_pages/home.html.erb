@@ -15,46 +15,46 @@
         <div class="services-image-container">
           <img src="assets/icon-orthopedic.png">
         </div>
-        <div class="service-title">Orthopedic/Spine</div>
+        <div class="service-title">Furniture</div>
       </a>
 
             <a href="#" class="services-link">
               <div class="services-image-container">
                 <img src="assets/icon-industrial.png">
               </div>
-              <div class="service-title">Industrial Services</div>
+              <div class="service-title">Garage</div>
             </a>
 
             <a href="ptpros_content.html" class="services-link">
               <div class="services-image-container">
                 <img src="assets/icon sports.png">
               </div>
-              <div class="service-title">Sports Medicine</div>
+              <div class="service-title">Kitchen</div>
             </a>
             <a href="ptpros_content.html" class="services-link">
               <div class="services-image-container">
                 <img src="assets/icon-health.png">
               </div>
-              <div class="service-title">Health and Wellness</div>
+              <div class="service-title">Decor</div>
             </a>
             <a href="#" class="services-link">
               <div class="services-image-container">
                 <img src="assets/icon-pediatrics.png">
               </div>
-              <div class="service-title">Pediatrics</div>
+              <div class="service-title">Books</div>
             </a>
             <a href="#" class="services-link">
               <div class="services-image-container">
                 <img src="assets/icon-neurological.png">
               </div>
-              <div class="service-title">Neurological/Balance</div>
+              <div class="service-title">Collectibles</div>
             </a>
           </div>
           <div class="text-center">
             <% if logged_in? %>
-              <%= link_to "Full List of Items", items_path, class: "btn btn-lg btn-primary" %>
+              <%= link_to "Full List of Items", items_path, class: "btn btn-lg btn-primary btn-list" %>
                <% else %>
-              <%= link_to "Log In!", login_path, class: "btn btn-lg btn-primary" %>
+              <%= link_to "Log In!", login_path, class: "btn btn-lg btn-primary btn-list" %>
             <% end %>
          </div>
         </div>

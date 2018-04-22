@@ -5,9 +5,9 @@
         <ul>
           <!-- RIGHT ALIGNED UPPER HALF -->
           <% if logged_in? %>
-              <%= link_to "Full List of Items", items_path, class: "btn btn-lg btn-primary" %>
+              <%= link_to "Full List of Items", items_path, class: "btn btn-lg btn-primary btn-list" %>
                <% else %>
-              <%= link_to "Log In!", login_path, class: "btn btn-lg btn-primary" %>
+              <%= link_to "Log In!", login_path, class: "btn btn-lg btn-primary btn-list" %>
             <% end %>
         </ul>
 
