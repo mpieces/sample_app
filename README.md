@@ -1,6 +1,6 @@
 ## Rails Practice Stuff:
 
-# Ruby on Rails Tutorial sample application
+# Shively House app
 
 ## Getting started
 
